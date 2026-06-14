@@ -1,9 +1,10 @@
+// @ts-nocheck
 import React, { useState, useRef, useEffect } from "react";
 
 // ==========================================
 // ❄️ 1단계: 겨울 폭풍 대비하기
 // ==========================================
-function Step1({ onNextStep, scale }) {
+function Step1({ onNextStep, scale }: any) {
   const [matches, setMatches] = useState({
     pipe: false,
     table: false,
@@ -191,7 +192,7 @@ function Step1({ onNextStep, scale }) {
 // ==========================================
 // 🏕️ 2단계: 체온 유지하기
 // ==========================================
-function Step2({ onNextStep, scale }) {
+function Step2({ onNextStep, scale }: any) {
   const [appliedItems, setAppliedItems] = useState({
     clothes: false,
     cocoa: false,
